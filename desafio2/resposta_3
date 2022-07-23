@@ -1,0 +1,5 @@
+/*3. Através deste script foi possível atualizar todos os produtos da 
+categoria Cremes e Geleias (category_id = 2) para a categoria Frutas
+(category_id = 1)*/
+
+update products set category_id = 1 where category_id = 2;

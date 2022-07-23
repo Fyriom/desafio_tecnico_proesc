@@ -1,0 +1,8 @@
+/*1. É possível obter quantos produtos o cliente possui em cada categoria
+através do script abaixo */
+
+select count(name), category_id from products group by category_id;
+
+/* Através da tabela categories (select * from categories;) foi possível 
+perceber que category_id = 1 trata-se da categoria de frutas e category_id 
+= 2 trata-se da categoria de cremes e geleias na tabela products */

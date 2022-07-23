@@ -1,0 +1,4 @@
+/*2. Foi possível saber a média de preços de cada categoria através do 
+script abaixo*/
+
+select avg(price), category_id from products group by category_id;
